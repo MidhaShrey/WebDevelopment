@@ -1,0 +1,21 @@
+.header,.footer{
+  text-align:center;
+  height:70px;
+  width:400px;
+  background-color:PowderBlue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.blog-post{
+  text-align:center;
+  height:100px;
+  width:100px;
+  background-color:coral;
+  
+  margin-right:45px;
+  margin-top:0px;
+  padding:20px;
+  box-sizing:border-box;
+  display:inline-block;
+}

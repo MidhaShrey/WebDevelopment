@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        p
+        {
+            color:royalblue;
+            text-align: center;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <p><b>A form to set a users preference for links:</b></p>
+    <label>choose a color for links:</label>
+    <select name="colors" id="colors">
+        <option value="Default">Default</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="orange">orange</option>
+    </select>
+    <br>
+    <label>Underline Links?</label>
+    <input type="radio">yes
+    <input type="radio">no
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <hr>
+    <form action="./abc.php" method="get"></form>
+    <fieldset>
+        <legend>Register Now</legend>
+        <label for="Name"><b>Name</b></label>
+        <input type="name">
+        <br>
+        <br>
+        <label for="Email"><b>Email</b></label>
+        <input type="email">
+        <br>
+        <p><b>Which Browser Do You Use?</b></p>
+        <input type="checkbox">Firefox <br>
+        <input type="checkbox">Chrome <br>
+        <input type="checkbox">Opera <br>
+        <input type="checkbox">Safari <br>
+        <input type="checkbox">Internet Explorer <br>
+        <input type="checkbox">Others <br>
+        <br>
+        <label>Enter a forum Signature</label>
+        <br>
+        <br>
+        <textarea name="forumsignature" rows="5" cols="40"></textarea>>
+        <br>
+        <br>
+        <label>Choose Password:</label>
+        <input type="password" name="" id="" placeholder="Enter Password">
+        <br>
+        <br>
+        <label>Re-Enter Password:</label>
+        <input type="password" name="" id="" placeholder="Confirm Password">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </fieldset>
+</body>
+
+</html>
