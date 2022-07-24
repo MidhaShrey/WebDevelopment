@@ -5,9 +5,10 @@ const fruits=['orange','grapes','mangoes'];
 const mixed = ['str',23,[1,2]];
 console.log(fruits);
 console.log(mixed);
+console.log(fruits[1]);
 const arr = new Array(23,13,'orange');
 console.log(arr.length);
-console.log(Array.isArray('dff'));
+console.log(Array.isArray(arr)); //Tells if argument passed is an array or not.
 arr[0]='shaurya';
 
 let val = marks.indexOf(23);
