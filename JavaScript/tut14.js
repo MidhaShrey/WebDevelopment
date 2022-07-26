@@ -8,14 +8,16 @@ console.log("This is DOM Selector Tutorial 14");
 
 // 1. Single element selector 
 let element =  document.getElementById("myfirst");
-// element = element.className;
-// element = element.childNodes;
-// element = element.parentNode; 
+// element = element.className; //to get child names
+// element = element.childNodes; //to get nodes list
+// element = element.parentNode; //to get parent node
 
-element.style.color = 'red';
+element.style.color = 'red'; // Modification in CSS through CSS
 console.log(element);
 element.innerText = "Shrey is a good coder";
 element.innerHTML = "<b></b>";
+
+// Query Selector
 
 let sel = document.querySelector('#id'); //#myfirst
 sel = document.querySelector('.child'); //.child
